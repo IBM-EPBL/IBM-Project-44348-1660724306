@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Home</title>
+ <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "91a7efff-ea9b-46ac-88dd-dd6dd62e6bd5", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "fde6c515-c95e-4155-9ede-d676bbe2e7ee", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+ </head>
+ <body><center>
+ <h1>assignment for ibm watson chatbot</h1>
+ <p>4.designing a chatbot using IBM watson assistant for hospital</p>
+ <p>5.watson assistant service with 10 steps and use 3 conditions in it.
+ load that script in HTML pagr</p>
+ </center>
+</body>
+ 
+</html>
